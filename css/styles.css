@@ -1,0 +1,23 @@
+/* Positioning */ 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 25%;
+}
+
+/**/
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
